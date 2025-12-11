@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on: Java & Full-Stack Development & AI/ML<br>🌱 I’m currently learning: Advanced React patterns and Spring Boot architecture<br>👯 I’m looking to collaborate on: Java backend projects, MERN Projects and Hackathon ideas.
+🔭Java & Full-Stack Development & AI/ML<br>🌱 Advanced React patterns and Spring Boot architecture<br>👯 I’m looking to collaborate on: Java backend projects, MERN Projects and Hackathon ideas.
 
 
 ## 🌐 Socials:
