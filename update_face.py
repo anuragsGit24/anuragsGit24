@@ -48,14 +48,14 @@ def build_block(art):
         rows.append(f'<tspan x="{x}" y="{y}" class="t" style="animation-delay:{delay}s">{row.ljust(W)}</tspan>')
         
     return (f'<text id="ascii_face_placeholder" x="{x}" y="{start_y}" fill="currentColor" font-size="{FONT}px" '
-            f'stroke="currentColor" stroke-width="0.5">\n' + '\n'.join(rows) + '\n</text>')
+            f'stroke="currentColor" stroke-width="0.5" xml:space="preserve">\n' + '\n'.join(rows) + '\n</text>')
 
 def main():
     art = crop(load_art())
     block = build_block(art)
     
-    # Regex to find the placeholder text block
-    pat = re.compile(r'<text[^>]*id="ascii_face_placeholder"[^>]*>.*?</text>', re.S)
+    # UPDATED REGEX: Now catches both <text ...> </text> and <text ... />
+    pat = re.compile(r'<text[^>]*id="ascii_face_placeholder"[^>]*(?:/>|>.*?</text>)', re.S)
     
     for svg_file in SVGS:
         try:
