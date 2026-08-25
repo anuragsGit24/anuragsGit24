@@ -8,7 +8,7 @@
   </picture>
 </div>
 
-# 📊 GitHub Stats:
+# GitHub Stats:
 ![](https://github-stats-extended.vercel.app/api?username=anuragsGit24&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=anuragsGit24&theme=dark&hide_border=false)<br/>
 ![](https://github-stats-extended.vercel.app/api/top-langs/?username=anuragsGit24&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
