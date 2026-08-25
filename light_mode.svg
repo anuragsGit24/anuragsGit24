@@ -3,15 +3,17 @@
     <style>
         .bg { fill: #ffffff; }
         .text { font-family: 'Courier New', Courier, monospace; fill: #24292e; font-size: 14px; }
-        .dots { fill: #57606a; }
+        .dots { fill: #6e7781; }
         .face { fill: #24292e; stroke: #24292e; }
         .title { fill: #0969da; font-weight: bold; }
-        .label { fill: #1a7f37; font-weight: bold; }
-        .value { fill: #24292e; }
-        .accent { fill: #8250df; }
-        .cmd { fill: #0969da; }
+        .label { fill: #bc5b00; font-weight: bold; }
+        .value { fill: #315a83; }
+        .accent { fill: #57606a; }
+        .cmd { fill: #1a7f37; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
         .t { opacity: 0; animation: fadeIn 0.1s forwards; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+        .cursor { fill: #315a83; opacity: 0; animation: fadeIn 0.1s forwards, blink 1s step-end infinite; }
     </style>
     <rect width="900" height="480" rx="10" class="bg"/>
     <rect width="898" height="478" x="1" y="1" rx="10" fill="none" stroke="#d0d7de" stroke-width="2"/>
@@ -100,6 +102,8 @@
         <text y="370" class="text"><tspan class="t" style="animation-delay:0.72s">. <tspan class="label">Repos:</tspan> <tspan class="dots" id="repo_data_dots">. </tspan><tspan class="value" id="repo_data">26</tspan> {<tspan class="label">Contrib:</tspan> <tspan class="dots" id="contrib_data_dots"></tspan><tspan class="value" id="contrib_data">41</tspan>} | <tspan class="label">Stars:</tspan> <tspan class="dots" id="star_data_dots"> ....... </tspan><tspan class="value" id="star_data">2</tspan></tspan></text>
         <text y="390" class="text"><tspan class="t" style="animation-delay:0.76s">. <tspan class="label">Commits:</tspan> <tspan class="dots" id="commit_data_dots"> ......... </tspan><tspan class="value" id="commit_data">345</tspan> | <tspan class="label">Followers:</tspan> <tspan class="dots" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">5</tspan></tspan></text>
         <text y="410" class="text"><tspan class="t" style="animation-delay:0.80s">. <tspan class="label">Lines of Code:</tspan> <tspan class="value" id="loc_data">1,434,008</tspan> (<tspan class="value" id="loc_add">2,273,770</tspan>++, <tspan class="value" id="loc_del">839,762</tspan>--)</tspan></text>
+        <text y="448" class="text"><tspan class="t title" style="animation-delay:0.84s">anurag@github:~$</tspan></text>
+        <rect x="125" y="434" width="8" height="17" class="cursor"/>
         </g>
     </g>
 </svg>

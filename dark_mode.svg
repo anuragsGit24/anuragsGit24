@@ -3,19 +3,19 @@
     <style>
         .bg { fill: #0d1117; }
         .text { font-family: 'Courier New', Courier, monospace; fill: #c9d1d9; font-size: 14px; }
-        .dots { fill: #8b949e; }
+        .dots { fill: #76859a; }
         .face { fill: #c9d1d9; stroke: #c9d1d9; }
-        .title { fill: #58a6ff; font-weight: bold; }
-        .cmd { fill: #58a6ff; }
-        .label { fill: #3fb950; font-weight: bold; }
-        .value { fill: #f0f6fc; }
-        .accent { fill: #d2a8ff; }
+        .title { fill: #58c7ff; font-weight: bold; }
+        .cmd { fill: #55d187; }
+        .label { fill: #ffad42; font-weight: bold; }
+        .value { fill: #b9d7f2; }
+        .accent { fill: #d9e2ec; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
         .t { opacity: 0; animation: fadeIn 0.1s forwards; }
 	
 	/* ADD THIS FOR THE BLINKING CURSOR */
         @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-        .cursor { opacity: 0; animation: fadeIn 0.1s forwards, blink 1s step-end infinite; }
+        .cursor { fill: #b9d7f2; opacity: 0; animation: fadeIn 0.1s forwards, blink 1s step-end infinite; }
     </style>
     <rect width="900" height="480" rx="10" class="bg"/>
     
@@ -101,6 +101,8 @@
         <text y="380" class="text"><tspan class="t" style="animation-delay:0.72s">. <tspan class="label">Repos:</tspan> <tspan class="dots" id="repo_data_dots">. </tspan><tspan class="value" id="repo_data">26</tspan> {<tspan class="label">Contrib:</tspan> <tspan class="dots" id="contrib_data_dots"></tspan><tspan class="value" id="contrib_data">41</tspan>} | <tspan class="label">Stars:</tspan> <tspan class="dots" id="star_data_dots"> ....... </tspan><tspan class="value" id="star_data">2</tspan></tspan></text>
         <text y="400" class="text"><tspan class="t" style="animation-delay:0.76s">. <tspan class="label">Commits:</tspan> <tspan class="dots" id="commit_data_dots"> ......... </tspan><tspan class="value" id="commit_data">345</tspan> | <tspan class="label">Followers:</tspan> <tspan class="dots" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">5</tspan></tspan></text>
         <text y="420" class="text"><tspan class="t" style="animation-delay:0.80s">. <tspan class="label">Lines of Code:</tspan> <tspan class="value" id="loc_data">1,434,008</tspan> (<tspan class="value" id="loc_add">2,273,770</tspan>++, <tspan class="value" id="loc_del">839,762</tspan>--)</tspan></text>
+        <text y="448" class="text"><tspan class="t title" style="animation-delay:0.84s">anurag@github:~$</tspan></text>
+        <rect x="125" y="434" width="8" height="17" class="cursor"/>
         </g>
     </g>
 </svg>
