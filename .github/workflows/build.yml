@@ -1,0 +1,46 @@
+name: Build README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:  
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - '*.svg'
+      - 'README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r cache/requirements.txt
+
+      - name: Run today.py (Updates stats)
+        run: python today.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: anuragsGit24
+
+      - name: Run update_face.py (Injects ASCII art animation)
+        run: python update_face.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Automated update: GitHub stats and profile art"
+          git push
