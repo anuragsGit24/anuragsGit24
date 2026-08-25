@@ -1,4 +1,5 @@
-<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
     <style>
         .bg { fill: #ffffff; }
         .text { font-family: 'Courier New', Courier, monospace; fill: #24292e; font-size: 14px; }
@@ -15,7 +16,7 @@
     <g transform="translate(40, 60)">
         <text y="0" class="text">anurag@github -------------------------</text>
         <text y="20" class="text">. OS: ........................ Linux Mint / Windows</text>
-        <text y="40" class="text">. Coding since: <tspan class="dots" id="age_data_dots">.............. </tspan><tspan id="age_data">0 years, 0 months, 0 days</tspan></text>
+        <text y="40" class="text">. Coding since: <tspan class="dots" id="age_data_dots"> ........... </tspan><tspan id="age_data">3 years, 0 months, 24 days</tspan></text>
         <text y="60" class="text">. College: ................... SPIT, Mumbai</text>
         <text y="80" class="text">. Role: ...................... Software Eng / ML &amp; GenAI</text>
         <text y="100" class="text">. Languages.Programming: ..... Python, Java, C, JS, SQL</text>
@@ -28,8 +29,8 @@
         <text y="240" class="text">. Location: .................. Mumbai, Maharashtra, India</text>
         
         <text y="280" class="text">- GitHub Stats ------------------------</text>
-        <text y="300" class="text">. Repos: <tspan class="dots" id="repo_data_dots">.</tspan><tspan id="repo_data">0</tspan> {Contrib: <tspan class="dots" id="contrib_data_dots">.</tspan><tspan id="contrib_data">0</tspan>} | Stars: <tspan class="dots" id="star_data_dots">...... </tspan><tspan id="star_data">0</tspan></text>
-        <text y="320" class="text">. Commits: <tspan class="dots" id="commit_data_dots">........ </tspan><tspan id="commit_data">0</tspan> | Followers: <tspan class="dots" id="follower_data_dots">....... </tspan><tspan id="follower_data">0</tspan></text>
-        <text y="340" class="text">. Lines of Code: <tspan id="loc_data">0</tspan> (<tspan id="loc_add">0</tspan>++, <tspan id="loc_del">0</tspan>--)</text>
+        <text y="300" class="text">. Repos: <tspan class="dots" id="repo_data_dots">. </tspan><tspan id="repo_data">26</tspan> {Contrib: <tspan class="dots" id="contrib_data_dots"></tspan><tspan id="contrib_data">41</tspan>} | Stars: <tspan class="dots" id="star_data_dots"> ....... </tspan><tspan id="star_data">2</tspan></text>
+        <text y="320" class="text">. Commits: <tspan class="dots" id="commit_data_dots"> ......... </tspan><tspan id="commit_data">342</tspan> | Followers: <tspan class="dots" id="follower_data_dots"> ....... </tspan><tspan id="follower_data">5</tspan></text>
+        <text y="340" class="text">. Lines of Code: <tspan id="loc_data">1,433,818</tspan> (<tspan id="loc_add">2,273,444</tspan>++, <tspan id="loc_del">839,626</tspan>--)</text>
     </g>
 </svg>
