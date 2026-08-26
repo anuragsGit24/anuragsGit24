@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
     <style>
         .bg { fill: #ffffff; }
-        .text { font-family: 'Courier New', Courier, monospace; fill: #24292e; font-size: 14px; }
+        .text { font-family: 'Courier New', Courier, monospace; fill: #24292e; font-size: 12px; }
         .dots { fill: #6e7781; }
         .face { fill: #24292e; stroke: #24292e; }
         .title { fill: #0969da; font-weight: bold; }
@@ -11,9 +11,25 @@
         .accent { fill: #57606a; }
         .cmd { fill: #1a7f37; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        .t { opacity: 0; animation: fadeIn 0.1s forwards; }
+        .t { opacity: 0; animation: fadeIn 0.24s ease-out forwards; }
         @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-        .cursor { fill: #315a83; opacity: 0; animation: fadeIn 0.1s forwards, blink 1s step-end infinite; }
+        .cursor { fill: #315a83; opacity: 0; animation: fadeIn 0.1s 2.45s forwards, blink 1s 2.55s step-end infinite; }
+        .details > text:nth-of-type(4) .t { animation-delay: 0.72s !important; }
+        .details > text:nth-of-type(5) .t { animation-delay: 0.77s !important; }
+        .details > text:nth-of-type(6) .t { animation-delay: 0.82s !important; }
+        .details > text:nth-of-type(7) .t { animation-delay: 0.87s !important; }
+        .details > text:nth-of-type(8) .t { animation-delay: 0.92s !important; }
+        .details > text:nth-of-type(9) .t { animation-delay: 0.97s !important; }
+        .details > text:nth-of-type(10) .t { animation-delay: 1.02s !important; }
+        .details > text:nth-of-type(11) .t { animation-delay: 1.07s !important; }
+        .details > text:nth-of-type(12) .t { animation-delay: 1.12s !important; }
+        .details > text:nth-of-type(13) .t { animation-delay: 1.17s !important; }
+        .details > text:nth-of-type(14) .t { animation-delay: 1.22s !important; }
+        .details > text:nth-of-type(15) .t { animation-delay: 1.27s !important; }
+        .details > text:nth-of-type(16) .t { animation-delay: 1.32s !important; }
+        .details > text:nth-of-type(17) .t { animation-delay: 1.37s !important; }
+        .details > text:nth-of-type(18) .t { animation-delay: 1.42s !important; }
+        .details > text:nth-of-type(19) .t { animation-delay: 1.47s !important; }
     </style>
     <rect width="900" height="480" rx="10" class="bg"/>
     <rect width="898" height="478" x="1" y="1" rx="10" fill="none" stroke="#d0d7de" stroke-width="2"/>
@@ -27,63 +43,56 @@
     <text x="492" y="24" class="title">anurag@github: ~</text>
 
     <g transform="translate(40, 60)">
-        <text id="ascii_face_placeholder" class="face" x="10" y="0" font-family="monospace" font-size="7.5px" stroke-width="0.5" xml:space="preserve">
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.100s" xml:space="preserve">                                        ---                                     </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.140s" xml:space="preserve">                              -=-==++==--------===-                             </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.180s" xml:space="preserve">                           ==--------::::..:.:::----                            </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.220s" xml:space="preserve">                        ----::...................::--:                          </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.260s" xml:space="preserve">                       --::.........       .......:::-                          </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.300s" xml:space="preserve">                      ::....     ...................::                          </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.340s" xml:space="preserve">                      ::...    ..:::--------:::::....::                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.380s" xml:space="preserve">                      :..    .::----============-:....:                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.420s" xml:space="preserve">                      .. .  .::--=========++++++=:....:                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.460s" xml:space="preserve">                      ..   .---=========+++====++=....:                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.500s" xml:space="preserve">                      ... .-=-:....:--=-::...:::-+:...                          </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.540s" xml:space="preserve">                       .....::::::...:-::.:::--==:..:.                          </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.580s" xml:space="preserve">                       :: :-:....:.. :-:::::.:-:==:.-++                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.620s" xml:space="preserve">                      ==-.:---:::::-:**+-==--===++--+++                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.660s" xml:space="preserve">                      ===:=-=++====-++**+==++++*+=+==++                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.700s" xml:space="preserve">                      ==--====++=-:-:-==:=---===+++==+*                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.740s" xml:space="preserve">                      :++=======---:..:::-====+++++=**+                         </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.780s" xml:space="preserve">                       ++=-==---::...::-::.:::=++++=**                          </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.820s" xml:space="preserve">                        *===---:::.::------:--=++++=                            </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.860s" xml:space="preserve">                          --------------==++==+====                             </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.900s" xml:space="preserve">                           ----:::--::.::-==--====                              </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.940s" xml:space="preserve">                            =-::...::::--:::.:--++                              </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.980s" xml:space="preserve">                             =-..   .........:=+++@                             </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.020s" xml:space="preserve">                           #+---::.       .:-==+=-*                             </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.060s" xml:space="preserve">                          ##*-----::::---=======-:*#=                           </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.100s" xml:space="preserve">                         %%##*---------=========:-*#%%                          </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.140s" xml:space="preserve">                    @%%%%%%##*=--==--====+=====-:-*#%%%%%%@                     </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.180s" xml:space="preserve">                @%%%%%%%%%%###*----==========--::=*#%%%%#%%%%%*                 </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.220s" xml:space="preserve">           %%%%%%#%%%%%%%%%####=---=========---:-+*##%%%%%#%%%%%%%%%            </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.260s" xml:space="preserve">       %%%%%%%%%%%%%%##*+===*##*=-===========---=*#+===*#%%#%%%%%%%%%%%%        </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.300s" xml:space="preserve">   @%%%%%%%%%%%%%%%%%##*++++==+**+==++=========****++++**#####%%##%%%%%%%%%@    </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.340s" xml:space="preserve"> *%%%%%%%%%%%%%%%%%%###***++++===+*+++++===+*************#######%#####%%%%%%%   </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.380s" xml:space="preserve">###%###%%####%%%%%%####********++++**+++++*##************#################%%### </tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.420s" xml:space="preserve">######*#######%%%%#######*********++++*++##*************########################</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.460s" xml:space="preserve">*#*###*#########%%##########*********++*##*******###############################</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.500s" xml:space="preserve">*#*****##########################******#####*###############################*###</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.540s" xml:space="preserve">##******############################***#########################################</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.580s" xml:space="preserve">#********############################*#####################################*#*##</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.620s" xml:space="preserve">************#########################*###################################**#*###</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.660s" xml:space="preserve">*******+****#########################*##################################*****###</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.700s" xml:space="preserve">*******+**###########################*##################################**#**###</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.740s" xml:space="preserve">********+******######################*#################################*****####</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.780s" xml:space="preserve">********+********######################################################*****####</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.820s" xml:space="preserve">*******+++********#####################################################*****####</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.860s" xml:space="preserve">********++********####################################################*****#####</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.900s" xml:space="preserve">*******++++***********#################################################****##*##</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.940s" xml:space="preserve">*******++++**************#*###########################################*****#####</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.980s" xml:space="preserve">*****+*++++**************#*###########################################*++*##***#</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:2.020s" xml:space="preserve">********+==+****************##########################################*+**#****#</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:2.060s" xml:space="preserve">*******++==+*****************#########################################++**#****#</tspan>
-<tspan x="10" dy="1.1em" class="t" style="animation-delay:2.100s" xml:space="preserve">*******+++-+*******************######################################*=********#</tspan>
+        <text id="ascii_face_placeholder" class="face" x="10" y="0" transform="translate(0, 55)" font-family="monospace" font-size="6.5px" stroke-width="0.5" xml:space="preserve">
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.720s" xml:space="preserve">                                        ---                                     </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.748s" xml:space="preserve">                              -=-==++==--------===-                             </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.776s" xml:space="preserve">                           ==--------::::..:.:::----                            </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.804s" xml:space="preserve">                        ----::...................::--:                          </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.832s" xml:space="preserve">                       --::.........       .......:::-                          </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.860s" xml:space="preserve">                      ::....     ...................::                          </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.888s" xml:space="preserve">                      ::...    ..:::--------:::::....::                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.916s" xml:space="preserve">                      :..    .::----============-:....:                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.944s" xml:space="preserve">                      .. .  .::--=========++++++=:....:                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:0.972s" xml:space="preserve">                      ..   .---=========+++====++=....:                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.000s" xml:space="preserve">                      ... .-=-:....:--=-::...:::-+:...                          </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.028s" xml:space="preserve">                       .....::::::...:-::.:::--==:..:.                          </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.056s" xml:space="preserve">                       :: :-:....:.. :-:::::.:-:==:.-++                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.084s" xml:space="preserve">                      ==-.:---:::::-:**+-==--===++--+++                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.112s" xml:space="preserve">                      ===:=-=++====-++**+==++++*+=+==++                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.140s" xml:space="preserve">                      ==--====++=-:-:-==:=---===+++==+*                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.168s" xml:space="preserve">                      :++=======---:..:::-====+++++=**+                         </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.196s" xml:space="preserve">                       ++=-==---::...::-::.:::=++++=**                          </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.224s" xml:space="preserve">                        *===---:::.::------:--=++++=                            </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.252s" xml:space="preserve">                          --------------==++==+====                             </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.280s" xml:space="preserve">                           ----:::--::.::-==--====                              </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.308s" xml:space="preserve">                            =-::...::::--:::.:--++                              </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.336s" xml:space="preserve">                             =-..   .........:=+++@                             </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.364s" xml:space="preserve">                           #+---::.       .:-==+=-*                             </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.392s" xml:space="preserve">                          ##*-----::::---=======-:*#=                           </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.420s" xml:space="preserve">                         %%##*---------=========:-*#%%                          </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.448s" xml:space="preserve">                    @%%%%%%##*=--==--====+=====-:-*#%%%%%%@                     </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.476s" xml:space="preserve">                @%%%%%%%%%%###*----==========--::=*#%%%%#%%%%%*                 </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.504s" xml:space="preserve">           %%%%%%#%%%%%%%%%####=---=========---:-+*##%%%%%#%%%%%%%%%            </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.532s" xml:space="preserve">       %%%%%%%%%%%%%%##*+===*##*=-===========---=*#+===*#%%#%%%%%%%%%%%%        </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.560s" xml:space="preserve">   @%%%%%%%%%%%%%%%%%##*++++==+**+==++=========****++++**#####%%##%%%%%%%%%@    </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.588s" xml:space="preserve"> *%%%%%%%%%%%%%%%%%%###***++++===+*+++++===+*************#######%#####%%%%%%%   </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.616s" xml:space="preserve">###%###%%####%%%%%%####********++++**+++++*##************#################%%### </tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.644s" xml:space="preserve">######*#######%%%%#######*********++++*++##*************########################</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.672s" xml:space="preserve">*#*###*#########%%##########*********++*##*******###############################</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.700s" xml:space="preserve">*#*****##########################******#####*###############################*###</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.728s" xml:space="preserve">##******############################***#########################################</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.756s" xml:space="preserve">#********############################*#####################################*#*##</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.784s" xml:space="preserve">************#########################*###################################**#*###</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.812s" xml:space="preserve">*******+****#########################*##################################*****###</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.840s" xml:space="preserve">*******+**###########################*##################################**#**###</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.868s" xml:space="preserve">********+******######################*#################################*****####</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.896s" xml:space="preserve">********+********######################################################*****####</tspan>
+<tspan x="10" dy="1.1em" class="t" style="animation-delay:1.924s" xml:space="preserve">*******+++********#####################################################*****####</tspan>
 </text>
-        <g transform="translate(370, 0)">
-        <text y="0" class="text"><tspan class="t title" style="animation-delay:0.08s">anurag@github:~$ <tspan class="cmd">whoami</tspan></tspan></text>
-        <text y="20" class="text"><tspan class="t value" style="animation-delay:0.12s">anuragsGit24</tspan></text>
-        <text y="40" class="text"><tspan class="t title" style="animation-delay:0.16s">anurag@github:~$ <tspan class="cmd">neofetch</tspan></tspan></text>
+        <g class="details" transform="translate(330, 0) scale(1, 0.82)">
+        <text y="0" transform="translate(-330, 0)" class="text"><tspan class="t title" style="animation-delay:0.08s">anurag@github:~$ <tspan class="cmd">whoami</tspan></tspan></text>
+        <text y="20" transform="translate(-330, 0)" class="text"><tspan class="t value" style="animation-delay:0.12s">anuragsGit24</tspan></text>
+        <text y="40" transform="translate(-330, 0)" class="text"><tspan class="t title" style="animation-delay:0.16s">anurag@github:~$ <tspan class="cmd">neofetch</tspan></tspan></text>
         <text y="70" class="text"><tspan class="t title" style="animation-delay:0.20s">anurag@github -------------------------</tspan></text>
         <text y="90" class="text"><tspan class="t" style="animation-delay:0.24s">. <tspan class="label">OS:</tspan><tspan class="dots"> ........................ </tspan><tspan class="value">Linux Mint / Windows</tspan></tspan></text>
         <text y="110" class="text"><tspan class="t" style="animation-delay:0.28s">. <tspan class="label">Coding since:</tspan><tspan class="dots"> ........... </tspan><tspan class="value" id="age_data">3 years, 0 months, 25 days</tspan></tspan></text>

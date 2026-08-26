@@ -5,10 +5,10 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 SVGS = [BASE_DIR / 'dark_mode.svg', BASE_DIR / 'light_mode.svg']
 ART = BASE_DIR / 'face.txt'
-FONT = 7.5
+FONT = 6.5
 CHAR_W = FONT * 0.6
 MAXCOLS = 95
-MAXROWS = 92        
+MAXROWS = 110
 
 def load_art():
     """Read face.txt and strip trailing whitespace."""
@@ -39,10 +39,10 @@ def build_block(art):
     rows = []
     
     for i, row in enumerate(art):
-        delay = round(0.10 + (i * 0.04), 3)
+        delay = round(0.72 + (i * 0.028), 3)
         rows.append(f'<tspan x="{x}" dy="1.1em" class="t" style="animation-delay:{delay:.3f}s" xml:space="preserve">{row.ljust(W)}</tspan>')
 
-    return (f'<text id="ascii_face_placeholder" class="face" x="{x}" y="0" '
+    return (f'<text id="ascii_face_placeholder" class="face" x="{x}" y="0" transform="translate(0, 55)" '
             f'font-family="monospace" font-size="{FONT}px" stroke-width="0.5" '
             f'xml:space="preserve">\n' + '\n'.join(rows) + '\n</text>')
 
