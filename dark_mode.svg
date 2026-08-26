@@ -16,22 +16,22 @@
 	/* ADD THIS FOR THE BLINKING CURSOR */
         @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
         .cursor { fill: #b9d7f2; opacity: 0; animation: fadeIn 0.1s 2.45s forwards, blink 1s 2.55s step-end infinite; }
-        .details > text:nth-of-type(4) .t { animation-delay: 0.72s !important; }
-        .details > text:nth-of-type(5) .t { animation-delay: 0.77s !important; }
-        .details > text:nth-of-type(6) .t { animation-delay: 0.82s !important; }
-        .details > text:nth-of-type(7) .t { animation-delay: 0.87s !important; }
-        .details > text:nth-of-type(8) .t { animation-delay: 0.92s !important; }
-        .details > text:nth-of-type(9) .t { animation-delay: 0.97s !important; }
-        .details > text:nth-of-type(10) .t { animation-delay: 1.02s !important; }
-        .details > text:nth-of-type(11) .t { animation-delay: 1.07s !important; }
-        .details > text:nth-of-type(12) .t { animation-delay: 1.12s !important; }
-        .details > text:nth-of-type(13) .t { animation-delay: 1.17s !important; }
-        .details > text:nth-of-type(14) .t { animation-delay: 1.22s !important; }
-        .details > text:nth-of-type(15) .t { animation-delay: 1.27s !important; }
-        .details > text:nth-of-type(16) .t { animation-delay: 1.32s !important; }
-        .details > text:nth-of-type(17) .t { animation-delay: 1.37s !important; }
-        .details > text:nth-of-type(18) .t { animation-delay: 1.42s !important; }
-        .details > text:nth-of-type(19) .t { animation-delay: 1.47s !important; }
+        .details &gt; text:nth-of-type(4) .t { animation-delay: 0.72s !important; }
+        .details &gt; text:nth-of-type(5) .t { animation-delay: 0.77s !important; }
+        .details &gt; text:nth-of-type(6) .t { animation-delay: 0.82s !important; }
+        .details &gt; text:nth-of-type(7) .t { animation-delay: 0.87s !important; }
+        .details &gt; text:nth-of-type(8) .t { animation-delay: 0.92s !important; }
+        .details &gt; text:nth-of-type(9) .t { animation-delay: 0.97s !important; }
+        .details &gt; text:nth-of-type(10) .t { animation-delay: 1.02s !important; }
+        .details &gt; text:nth-of-type(11) .t { animation-delay: 1.07s !important; }
+        .details &gt; text:nth-of-type(12) .t { animation-delay: 1.12s !important; }
+        .details &gt; text:nth-of-type(13) .t { animation-delay: 1.17s !important; }
+        .details &gt; text:nth-of-type(14) .t { animation-delay: 1.22s !important; }
+        .details &gt; text:nth-of-type(15) .t { animation-delay: 1.27s !important; }
+        .details &gt; text:nth-of-type(16) .t { animation-delay: 1.32s !important; }
+        .details &gt; text:nth-of-type(17) .t { animation-delay: 1.37s !important; }
+        .details &gt; text:nth-of-type(18) .t { animation-delay: 1.42s !important; }
+        .details &gt; text:nth-of-type(19) .t { animation-delay: 1.47s !important; }
     </style>
     <rect width="900" height="480" rx="10" class="bg"/>
     
@@ -108,8 +108,8 @@
         <text y="320" class="text"><tspan class="t" style="animation-delay:0.64s">. <tspan class="label">Location:</tspan><tspan class="dots"> .................. </tspan><tspan class="value">Mumbai, Maharashtra, India</tspan></tspan></text>
         <text y="360" class="text"><tspan class="t accent" style="animation-delay:0.68s">- GitHub Stats ------------------------</tspan></text>
         <text y="380" class="text"><tspan class="t" style="animation-delay:0.72s">. <tspan class="label">Repos:</tspan> <tspan class="dots" id="repo_data_dots">. </tspan><tspan class="value" id="repo_data">26</tspan> {<tspan class="label">Contrib:</tspan> <tspan class="dots" id="contrib_data_dots"></tspan><tspan class="value" id="contrib_data">41</tspan>} | <tspan class="label">Stars:</tspan> <tspan class="dots" id="star_data_dots"> ....... </tspan><tspan class="value" id="star_data">2</tspan></tspan></text>
-        <text y="400" class="text"><tspan class="t" style="animation-delay:0.76s">. <tspan class="label">Commits:</tspan> <tspan class="dots" id="commit_data_dots"> ......... </tspan><tspan class="value" id="commit_data">348</tspan> | <tspan class="label">Followers:</tspan> <tspan class="dots" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">5</tspan></tspan></text>
-        <text y="420" class="text"><tspan class="t" style="animation-delay:0.80s">. <tspan class="label">Lines of Code:</tspan> <tspan class="value" id="loc_data">1,434,014</tspan> (<tspan class="value" id="loc_add">2,273,794</tspan>++, <tspan class="value" id="loc_del">839,780</tspan>--)</tspan></text>
+        <text y="400" class="text"><tspan class="t" style="animation-delay:0.76s">. <tspan class="label">Commits:</tspan> <tspan class="dots" id="commit_data_dots"> ......... </tspan><tspan class="value" id="commit_data">349</tspan> | <tspan class="label">Followers:</tspan> <tspan class="dots" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">5</tspan></tspan></text>
+        <text y="420" class="text"><tspan class="t" style="animation-delay:0.80s">. <tspan class="label">Lines of Code:</tspan> <tspan class="value" id="loc_data">1,434,025</tspan> (<tspan class="value" id="loc_add">2,273,934</tspan>++, <tspan class="value" id="loc_del">839,909</tspan>--)</tspan></text>
         <text y="448" class="text"><tspan class="t title" style="animation-delay:0.84s">anurag@github:~$</tspan></text>
         <rect x="125" y="434" width="8" height="17" class="cursor"/>
         </g>
