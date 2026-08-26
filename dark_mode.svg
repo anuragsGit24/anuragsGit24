@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450" viewBox="0 0 900 450">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="465" viewBox="0 0 900 465">
     <style>
         .bg { fill: #0d1117; }
-        .text { font-family: 'Courier New', Courier, monospace; fill: #c9d1d9; font-size: 13px; }
+        .text { font-family: 'Courier New', Courier, monospace; fill: #c9d1d9; font-size: 14px; }
         .dots { fill: #76859a; }
         .face { fill: #c9d1d9; stroke: #c9d1d9; }
         .title { fill: #58c7ff; font-weight: bold; }
@@ -44,7 +44,7 @@
     <text x="350" y="24" class="title">anurag@github: ~</text>
 
     <g transform="translate(40, 60)">
-        <text id="ascii_face_placeholder" class="face" x="10" y="0" transform="translate(0, 55)" font-family="monospace" font-size="6.5px" stroke-width="0.5" xml:space="preserve">
+        <text id="ascii_face_placeholder" class="face" x="10" y="0" transform="translate(0, 55)" font-family="monospace" font-size="7.0px" stroke-width="0.5" xml:space="preserve">
 <tspan x="10" dy="1em" class="t" style="animation-delay:0.720s" xml:space="preserve">                                        ---                                     </tspan>
 <tspan x="10" dy="1em" class="t" style="animation-delay:0.748s" xml:space="preserve">                              -=-==++==--------===-                             </tspan>
 <tspan x="10" dy="1em" class="t" style="animation-delay:0.776s" xml:space="preserve">                           ==--------::::..:.:::----                            </tspan>
@@ -90,7 +90,7 @@
 <tspan x="10" dy="1em" class="t" style="animation-delay:1.896s" xml:space="preserve">********+********######################################################*****####</tspan>
 <tspan x="10" dy="1em" class="t" style="animation-delay:1.924s" xml:space="preserve">*******+++********#####################################################*****####</tspan>
 </text>
-        <g class="details" transform="translate(330, 0) scale(1, 0.78)">
+        <g class="details" transform="translate(330, -8) scale(1, 0.9)">
         <text y="0" transform="translate(-330, 0)" class="text"><tspan class="t title" style="animation-delay:0.08s">anurag@github:~$ <tspan class="cmd">whoami</tspan></tspan></text>
         <text y="20" transform="translate(-330, 0)" class="text"><tspan class="t value" style="animation-delay:0.12s">Anurag Singh - B.Tech Computer Engineering, SPIT Mumbai</tspan></text>
         <text y="50" transform="translate(-330, 0)" class="text"><tspan class="t title" style="animation-delay:0.16s">anurag@github:~$ <tspan class="cmd">neofetch</tspan></tspan></text>
@@ -111,7 +111,7 @@
         <text y="400" class="text"><tspan class="t" style="animation-delay:0.76s">. <tspan class="label">Commits:</tspan> <tspan class="dots" id="commit_data_dots"> ......... </tspan><tspan class="value" id="commit_data">350</tspan> | <tspan class="label">Followers:</tspan> <tspan class="dots" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">5</tspan></tspan></text>
         <text y="420" class="text"><tspan class="t" style="animation-delay:0.80s">. <tspan class="label">Lines of Code:</tspan> <tspan class="value" id="loc_data">1,434,025</tspan> (<tspan class="value" id="loc_add">2,274,031</tspan>++, <tspan class="value" id="loc_del">840,006</tspan>--)</tspan></text>
         <text y="448" class="text"><tspan class="t title" style="animation-delay:0.84s">anurag@github:~$</tspan></text>
-        <rect x="125" y="434" width="6" height="17" class="cursor"/>
+        <rect x="140" y="434" width="6" height="17" class="cursor"/>
         </g>
     </g>
 </svg>
