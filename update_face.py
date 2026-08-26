@@ -40,7 +40,7 @@ def build_block(art):
     
     for i, row in enumerate(art):
         delay = round(0.72 + (i * 0.028), 3)
-        rows.append(f'<tspan x="{x}" dy="1.1em" class="t" style="animation-delay:{delay:.3f}s" xml:space="preserve">{row.ljust(W)}</tspan>')
+        rows.append(f'<tspan x="{x}" dy="1em" class="t" style="animation-delay:{delay:.3f}s" xml:space="preserve">{row.ljust(W)}</tspan>')
 
     return (f'<text id="ascii_face_placeholder" class="face" x="{x}" y="0" transform="translate(0, 55)" '
             f'font-family="monospace" font-size="{FONT}px" stroke-width="0.5" '
