@@ -7,7 +7,7 @@ SVGS = [BASE_DIR / 'dark_mode.svg', BASE_DIR / 'light_mode.svg']
 ART = BASE_DIR / 'face.txt'
 FONT = 7.0
 CHAR_W = FONT * 0.6
-MAXCOLS = 95
+MAXCOLS = 75
 MAXROWS = 110
 
 def load_art():
