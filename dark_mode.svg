@@ -96,7 +96,7 @@
         <text y="50" transform="translate(-330, 0)" class="text"><tspan class="t title" style="animation-delay:0.16s">anurag@github:~$ <tspan class="cmd">neofetch</tspan></tspan></text>
         <text y="80" class="text"><tspan class="t title" style="animation-delay:0.20s">anurag@github -------------------------</tspan></text>
         <text y="100" class="text"><tspan class="t" style="animation-delay:0.24s">. <tspan class="label">OS:</tspan><tspan class="dots"> ........................ </tspan><tspan class="value">Linux / Windows</tspan></tspan></text>
-        <text y="120" class="text"><tspan class="t" style="animation-delay:0.28s">. <tspan class="label">Coding since:</tspan><tspan class="dots"> ........... </tspan><tspan class="value" id="age_data">3 years, 1 month, 0 days</tspan></tspan></text>
+        <text y="120" class="text"><tspan class="t" style="animation-delay:0.28s">. <tspan class="label">Coding since:</tspan><tspan class="dots"> ........... </tspan><tspan class="value" id="age_data">3 years, 1 month, 1 day</tspan></tspan></text>
         <text y="140" class="text"><tspan class="t" style="animation-delay:0.32s">. <tspan class="label">College:</tspan><tspan class="dots"> ................... </tspan><tspan class="value">SPIT, Mumbai</tspan></tspan></text>
         <text y="160" class="text"><tspan class="t" style="animation-delay:0.36s">. <tspan class="label">Role:</tspan><tspan class="dots"> ...................... </tspan><tspan class="value">Software Eng / ML &amp; GenAI</tspan></tspan></text>
         <text y="180" class="text"><tspan class="t" style="animation-delay:0.40s">. <tspan class="label">Languages.Programming:</tspan><tspan class="dots"> ..... </tspan><tspan class="value">Python, Java, PHP, JS, SQL</tspan></tspan></text>
